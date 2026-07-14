@@ -1,5 +1,7 @@
 # YCCA Website Prototype — Implementation Plan
 
+> **Status: COMPLETE** — All 9 tasks and 37 steps delivered. Prototype live at https://adampridmore.github.io/yorkshire-cx-website-prototype/index.html
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Build a 7-page static HTML prototype of the improved YCCA website, ready for committee review.
@@ -42,7 +44,7 @@ website/
 **Files:**
 - Create: `css/styles.css`
 
-- [ ] **Step 1: Check Node/npm is available**
+- [x] **Step 1: Check Node/npm is available**
 
 ```bash
 node --version && npm --version
@@ -50,7 +52,7 @@ node --version && npm --version
 
 Expected: version numbers printed. If not installed, download from nodejs.org.
 
-- [ ] **Step 2: Install html-validate**
+- [x] **Step 2: Install html-validate**
 
 ```bash
 npm init -y && npm install --save-dev html-validate
@@ -58,7 +60,7 @@ npm init -y && npm install --save-dev html-validate
 
 Expected: `package.json` created, `node_modules/` populated.
 
-- [ ] **Step 3: Create `.gitignore`**
+- [x] **Step 3: Create `.gitignore`**
 
 Create `.gitignore`:
 ```
@@ -66,7 +68,7 @@ node_modules/
 package-lock.json
 ```
 
-- [ ] **Step 4: Create `css/styles.css`**
+- [x] **Step 4: Create `css/styles.css`**
 
 ```css
 :root {
@@ -231,7 +233,7 @@ p:last-child { margin-bottom: 0; }
 .text-center { text-align: center; }
 ```
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add css/styles.css .gitignore package.json
@@ -245,7 +247,7 @@ git commit -m "feat: add CSS design system and project scaffold"
 **Files:**
 - Create: `index.html`
 
-- [ ] **Step 1: Create `index.html`**
+- [x] **Step 1: Create `index.html`**
 
 ```html
 <!DOCTYPE html>
@@ -423,7 +425,7 @@ git commit -m "feat: add CSS design system and project scaffold"
 </html>
 ```
 
-- [ ] **Step 2: Open in browser and verify**
+- [x] **Step 2: Open in browser and verify**
 
 ```bash
 open index.html
@@ -431,7 +433,7 @@ open index.html
 
 Check: hero with two CTA buttons, four info items, three cards, CTA banner, four-column footer. At 375px the hamburger button appears and opens the nav.
 
-- [ ] **Step 3: Validate HTML**
+- [x] **Step 3: Validate HTML**
 
 ```bash
 npx html-validate index.html
@@ -439,7 +441,7 @@ npx html-validate index.html
 
 Expected: `index.html: no errors found`
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add index.html
@@ -453,7 +455,7 @@ git commit -m "feat: add homepage with dual-audience hero and card grid"
 **Files:**
 - Create: `new-to-cx.html`
 
-- [ ] **Step 1: Create `new-to-cx.html`**
+- [x] **Step 1: Create `new-to-cx.html`**
 
 ```html
 <!DOCTYPE html>
@@ -627,7 +629,7 @@ git commit -m "feat: add homepage with dual-audience hero and card grid"
 </html>
 ```
 
-- [ ] **Step 2: Open in browser and verify**
+- [x] **Step 2: Open in browser and verify**
 
 ```bash
 open new-to-cx.html
@@ -635,7 +637,7 @@ open new-to-cx.html
 
 Check: "New to CX?" highlighted in nav, wide action photo, 6-item info grid, two cards at bottom.
 
-- [ ] **Step 3: Validate HTML**
+- [x] **Step 3: Validate HTML**
 
 ```bash
 npx html-validate new-to-cx.html
@@ -643,7 +645,7 @@ npx html-validate new-to-cx.html
 
 Expected: `new-to-cx.html: no errors found`
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add new-to-cx.html
@@ -657,7 +659,7 @@ git commit -m "feat: add New to CX introductory page"
 **Files:**
 - Create: `your-first-race.html`
 
-- [ ] **Step 1: Create `your-first-race.html`**
+- [x] **Step 1: Create `your-first-race.html`**
 
 ```html
 <!DOCTYPE html>
@@ -884,7 +886,7 @@ git commit -m "feat: add New to CX introductory page"
 </html>
 ```
 
-- [ ] **Step 2: Open in browser and verify**
+- [x] **Step 2: Open in browser and verify**
 
 ```bash
 open your-first-race.html
@@ -892,7 +894,7 @@ open your-first-race.html
 
 Check: entry cost section, 6-item what-to-bring grid, numbered step list (1–6), accordion FAQ opens/closes, CTA banner.
 
-- [ ] **Step 3: Validate HTML**
+- [x] **Step 3: Validate HTML**
 
 ```bash
 npx html-validate your-first-race.html
@@ -900,7 +902,7 @@ npx html-validate your-first-race.html
 
 Expected: `your-first-race.html: no errors found`
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add your-first-race.html
@@ -914,7 +916,7 @@ git commit -m "feat: add Your First Race practical guide with accordion FAQ"
 **Files:**
 - Create: `juniors.html`
 
-- [ ] **Step 1: Create `juniors.html`**
+- [x] **Step 1: Create `juniors.html`**
 
 ```html
 <!DOCTYPE html>
@@ -1126,7 +1128,7 @@ git commit -m "feat: add Your First Race practical guide with accordion FAQ"
 </html>
 ```
 
-- [ ] **Step 2: Open in browser and verify**
+- [x] **Step 2: Open in browser and verify**
 
 ```bash
 open juniors.html
@@ -1134,7 +1136,7 @@ open juniors.html
 
 Check: hero image, 4-item why-CX grid, age categories table with 6 rows, 2 coaching items, 5-item accordion FAQ.
 
-- [ ] **Step 3: Validate HTML**
+- [x] **Step 3: Validate HTML**
 
 ```bash
 npx html-validate juniors.html
@@ -1142,7 +1144,7 @@ npx html-validate juniors.html
 
 Expected: `juniors.html: no errors found`
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add juniors.html
@@ -1156,7 +1158,7 @@ git commit -m "feat: add Juniors & Youth page with age table and parent FAQ"
 **Files:**
 - Create: `current-season.html`
 
-- [ ] **Step 1: Create `current-season.html`**
+- [x] **Step 1: Create `current-season.html`**
 
 ```html
 <!DOCTYPE html>
@@ -1320,7 +1322,7 @@ git commit -m "feat: add Juniors & Youth page with age table and parent FAQ"
 </html>
 ```
 
-- [ ] **Step 2: Open in browser and verify**
+- [x] **Step 2: Open in browser and verify**
 
 ```bash
 open current-season.html
@@ -1328,7 +1330,7 @@ open current-season.html
 
 Check: race schedule table with 6 rounds and colour-coded badges, practical info grid, entry fee table.
 
-- [ ] **Step 3: Validate HTML**
+- [x] **Step 3: Validate HTML**
 
 ```bash
 npx html-validate current-season.html
@@ -1336,7 +1338,7 @@ npx html-validate current-season.html
 
 Expected: `current-season.html: no errors found`
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add current-season.html
@@ -1350,7 +1352,7 @@ git commit -m "feat: add Current Season page with race schedule and practical in
 **Files:**
 - Create: `results-archive.html`
 
-- [ ] **Step 1: Create `results-archive.html`**
+- [x] **Step 1: Create `results-archive.html`**
 
 ```html
 <!DOCTYPE html>
@@ -1499,7 +1501,7 @@ git commit -m "feat: add Current Season page with race schedule and practical in
 </html>
 ```
 
-- [ ] **Step 2: Open in browser and verify**
+- [x] **Step 2: Open in browser and verify**
 
 ```bash
 open results-archive.html
@@ -1507,7 +1509,7 @@ open results-archive.html
 
 Check: 2025 Winter Series open by default, other seasons collapsed, clicking expands the table inside.
 
-- [ ] **Step 3: Validate HTML**
+- [x] **Step 3: Validate HTML**
 
 ```bash
 npx html-validate results-archive.html
@@ -1515,7 +1517,7 @@ npx html-validate results-archive.html
 
 Expected: `results-archive.html: no errors found`
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add results-archive.html
@@ -1529,7 +1531,7 @@ git commit -m "feat: add Results Archive with collapsible year sections"
 **Files:**
 - Create: `rules.html`
 
-- [ ] **Step 1: Create `rules.html`**
+- [x] **Step 1: Create `rules.html`**
 
 ```html
 <!DOCTYPE html>
@@ -1679,7 +1681,7 @@ git commit -m "feat: add Results Archive with collapsible year sections"
 </html>
 ```
 
-- [ ] **Step 2: Open in browser and verify**
+- [x] **Step 2: Open in browser and verify**
 
 ```bash
 open rules.html
@@ -1687,7 +1689,7 @@ open rules.html
 
 Check: licensing table, 6-item accordion (bikes open by default), British Cycling links list.
 
-- [ ] **Step 3: Validate HTML**
+- [x] **Step 3: Validate HTML**
 
 ```bash
 npx html-validate rules.html
@@ -1695,7 +1697,7 @@ npx html-validate rules.html
 
 Expected: `rules.html: no errors found`
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add rules.html
@@ -1706,7 +1708,7 @@ git commit -m "feat: add Rules & Regulations page"
 
 ### Task 9: Final review pass
 
-- [ ] **Step 1: Click every nav link across all 7 pages**
+- [x] **Step 1: Click every nav link across all 7 pages**
 
 ```bash
 open index.html
@@ -1714,11 +1716,11 @@ open index.html
 
 Walk every page → every nav link. All 7 pages must be reachable; active page must highlight correctly in nav.
 
-- [ ] **Step 2: Test mobile nav at 375px**
+- [x] **Step 2: Test mobile nav at 375px**
 
 In browser dev tools, set viewport to 375px on each page. Confirm: hamburger visible, tap opens nav, nav link navigates correctly.
 
-- [ ] **Step 3: Run html-validate across all pages**
+- [x] **Step 3: Run html-validate across all pages**
 
 ```bash
 npx html-validate index.html new-to-cx.html your-first-race.html juniors.html current-season.html results-archive.html rules.html
@@ -1726,7 +1728,7 @@ npx html-validate index.html new-to-cx.html your-first-race.html juniors.html cu
 
 Expected: all files report `no errors found`
 
-- [ ] **Step 4: Final commit**
+- [x] **Step 4: Final commit**
 
 ```bash
 git add -A
