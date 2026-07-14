@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 200" role="img" aria-label="Yorkshire Cyclo-Cross Association">
+  <title>Yorkshire Cyclo-Cross Association</title>
+  <defs>
+    <!-- CX tyre tread: left/right edge knobs + offset centre knobs -->
+    <pattern id="tread" patternUnits="userSpaceOnUse" x="0" y="0" width="50" height="34">
+      <rect x="1"  y="1"  width="15" height="11" rx="2.5" fill="#e91e8c"/>
+      <rect x="1"  y="22" width="15" height="11" rx="2.5" fill="#e91e8c"/>
+      <rect x="18" y="11" width="14" height="11" rx="2.5" fill="#e91e8c"/>
+      <rect x="35" y="1"  width="15" height="11" rx="2.5" fill="#e91e8c"/>
+      <rect x="35" y="22" width="15" height="11" rx="2.5" fill="#e91e8c"/>
+    </pattern>
+    <!-- Clip tracks to the navy terrain shape only -->
+    <clipPath id="terrain">
+      <path d="M0,200 L0,105 C180,70 320,130 500,90 C680,50 760,140 940,100 C1060,76 1180,112 1400,95 L1400,200 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Hot pink background -->
+  <rect width="1400" height="200" fill="#e91e8c"/>
+
+  <!-- Dark navy wavy terrain (left/centre of image) -->
+  <path d="M0,200 L0,105 C180,70 320,130 500,90 C680,50 760,140 940,100 C1060,76 1180,112 1400,95 L1400,200 Z" fill="#0d1a2e"/>
+
+  <!-- CX tyre tracks — only visible on the navy terrain -->
+  <g clip-path="url(#terrain)">
+    <rect x="470" y="0" width="50" height="200" fill="url(#tread)" opacity="0.9"/>
+    <rect x="595" y="0" width="50" height="200" fill="url(#tread)" opacity="0.9"/>
+  </g>
+</svg>
