@@ -2,7 +2,11 @@
 
 A 7-page static HTML prototype for the Yorkshire Cyclo-Cross Association website, built for committee review. No server, build step, or framework required.
 
-## Viewing the prototype
+## Live demo
+
+https://adampridmore.github.io/yorkshire-cx-website-prototype/index.html
+
+## Viewing the prototype locally
 
 Open any HTML file directly in your browser:
 
