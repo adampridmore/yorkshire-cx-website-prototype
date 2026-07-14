@@ -15,9 +15,9 @@ All 11 items addressed:
 9. ✓ Timing chip return location corrected to finish area in your-first-race.html
 10. ✓ Aerobars and minimum tyre width removed from rules.html Equipment — bikes
 11. ✓ Jet washing requirement section removed entirely from rules.html
-
-
 12. ✓ Jet washer mention removed entirely from your-first-race.html step 6
+
+13. We have Hope and Insync Cycling as sponsers
 
 ## Content to confirm with the committee
 
