@@ -78,7 +78,7 @@ p:last-child { margin-bottom: 0; }
 }
 
 .hero { background: var(--color-primary); color: white; position: relative; overflow: hidden; min-height: 440px; display: flex; align-items: center; }
-.hero__bg { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: 0.3; }
+.hero__bg { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: 0.3; background-image: url('https://placehold.co/1400x500/1a3a5c/336699?text=Race+Action+Photo'); }
 .hero__content { position: relative; z-index: 1; max-width: 620px; padding: var(--space-xl) 0; }
 .hero__label { display: inline-block; background: var(--color-accent); color: var(--color-primary-dark); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; padding: 0.3rem 0.75rem; border-radius: var(--radius); margin-bottom: var(--space-sm); }
 .hero h1 { color: white; }
