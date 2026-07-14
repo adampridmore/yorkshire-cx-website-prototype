@@ -163,3 +163,5 @@ p:last-child { margin-bottom: 0; }
 
 .section-image { border-radius: var(--radius); margin-top: var(--space-md); }
 .hero-image { border-radius: var(--radius); margin-bottom: var(--space-lg); }
+
+.resources-list { margin-top: var(--space-sm); padding-left: var(--space-md); list-style: disc; }
