@@ -58,6 +58,11 @@ p:last-child { margin-bottom: 0; }
 .btn--white { background: white; color: var(--color-primary); }
 .btn--white:hover { background: var(--color-bg-alt); }
 
+.prototype-bar { background: white; border-bottom: 3px solid var(--color-accent); padding: 0.6rem var(--space-sm); text-align: center; font-size: 0.85rem; color: var(--color-text-light); }
+.prototype-bar strong { color: var(--color-primary); font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+.prototype-bar a { color: var(--color-primary); font-weight: 600; }
+.prototype-bar a:hover { color: var(--color-accent-dark); }
+
 .site-header { background: var(--color-primary); position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
 .site-banner { display: block; width: 100%; height: auto; }
 .site-header .container { display: flex; align-items: center; justify-content: space-between; padding-top: 0.75rem; padding-bottom: 0.75rem; }
